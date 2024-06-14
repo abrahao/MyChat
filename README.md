@@ -39,8 +39,5 @@ Pequeno chat em Flask
     ```
 
 ## Instalar Dependências
-
-Se você tiver um arquivo `requirements.txt` com as dependências do projeto, instale-as com:
-
 ```bash
 pip install -r requirements.txt
