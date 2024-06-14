@@ -2,15 +2,45 @@
 
 Pequeno chat em Flask
 
+## Criar um Ambiente Virtual
 
-## Create an environment
 ### Linux
-$ cd MyChat
-$ python3 -m venv .venv
-$ . .venv/bin/activate
+
+1. Navegue até o diretório do projeto:
+    ```bash
+    cd MyChat
+    ```
+
+2. Crie um ambiente virtual:
+    ```bash
+    python3 -m venv .venv
+    ```
+
+3. Ative o ambiente virtual:
+    ```bash
+    source .venv/bin/activate
+    ```
 
 ### Windows
-> cd MyChat
-> py -3 -m venv .venv
-> .venv\Scripts\activate
 
+1. Navegue até o diretório do projeto:
+    ```cmd
+    cd MyChat
+    ```
+
+2. Crie um ambiente virtual:
+    ```cmd
+    py -3 -m venv .venv
+    ```
+
+3. Ative o ambiente virtual:
+    ```cmd
+    .venv\Scripts\activate
+    ```
+
+## Instalar Dependências
+
+Se você tiver um arquivo `requirements.txt` com as dependências do projeto, instale-as com:
+
+```bash
+pip install -r requirements.txt
