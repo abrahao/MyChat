@@ -44,3 +44,8 @@ Se você tiver um arquivo `requirements.txt` com as dependências do projeto, in
 
 ```bash
 pip install -r requirements.txt
+
+## Executar a aplicação
+
+```bash
+flask run
