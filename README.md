@@ -1,5 +1,4 @@
 # MyChat
-<<<<<<< HEAD
 
 Pequeno chat em Flask
 
@@ -45,5 +44,3 @@ Se você tiver um arquivo `requirements.txt` com as dependências do projeto, in
 
 ```bash
 pip install -r requirements.txt
-=======
->>>>>>> af86af2 (add file)
